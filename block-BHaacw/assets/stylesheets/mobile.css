@@ -1,0 +1,27 @@
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 13px;
+    }
+
+    /* General */
+    .container {
+        max-width: 720px;
+        width: 100%;
+        padding: 0 4rem;
+        margin: 0 auto;
+    }
+.grid-container{
+    grid-template-columns: repeat(2,1fr);
+}
+.item2 {
+    grid-column: 1;
+    grid-row: 4/6;
+}
+
+}
+@media screen and (max-width: 600px) {
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+}
